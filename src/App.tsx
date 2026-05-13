@@ -1,7 +1,8 @@
 function App() {
   return (
-    <div>
-      <h1>Alexander Sanabria</h1>
+    <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center">
+      <h1 className="text-4xl font-bold text-white">Alexander Sanabria</h1>
+      <p className="text-gray-400 mt-2">Frontend Developer</p>
     </div>
   )
 }
